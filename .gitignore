@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+ai-fortune/node_modules/
+ai-fortune/server/node_modules/
+
+# Build output
+ai-fortune/dist/
+
+# Environment variables
+ai-fortune/server/.env
+
+# Logs
+*.log
+logs/
+
+# Editor
+.vscode/
+.idea/
+*.sw?
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code session
+.claude/
+
+# Local files
+*.local
+dist-ssr
